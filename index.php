@@ -1,0 +1,25 @@
+<?php
+
+include("./functions.php");
+
+$uri = $_SERVER["REQUEST_URI"];
+
+if ($uri === "/") {
+    require "./view.index.php";
+} else {
+
+    try {
+        $array = explode("/", $uri);
+
+        $year = $array[1];
+        $day = str_replace("day", "", $array[2]);
+
+        $part1result = "Not yet solved";
+        $part2result = "Not yet solved";
+
+        require "./{$year}/day{$day}/day{$day}.php";
+
+    } catch(Exception $e) {
+        echo $e->getMessage();
+    }
+}
