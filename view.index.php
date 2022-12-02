@@ -6,7 +6,7 @@ $puzzles = [
 
 foreach (array_keys($puzzles) as $year) {
     for ($day = 1; $day < 26; $day++) {
-        $path = "{$year}/day{$day}/day{$day}.php";
+        $path = "{$year}/day{$day}/main.php";
         if (file_exists($path)) {
             $puzzles[$year][] = [
                 "day" => $day,

@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$title</title>
+    <title><?=$title?></title>
 </head>
 <body>
     <button type=button onclick="window.location.href='/';">Home</button>

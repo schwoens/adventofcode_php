@@ -17,7 +17,7 @@ if ($uri === "/") {
         $part1result = "Not yet solved";
         $part2result = "Not yet solved";
 
-        require "./{$year}/day{$day}/day{$day}.php";
+        require "./{$year}/day{$day}/main.php";
 
     } catch(Exception $e) {
         echo $e->getMessage();
