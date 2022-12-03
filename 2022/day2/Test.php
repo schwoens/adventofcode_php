@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-require_once('Class.php');
+require_once('Day2.php');
 
 final class Test extends TestCase {
 

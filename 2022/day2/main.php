@@ -1,6 +1,6 @@
 <?php
 
-require_once("Class.php");
+require_once("Day2.php");
 
 $puzzle_input = readToString("2022/day2/puzzle_input.txt");
 $puzzle = new Day2($puzzle_input);
