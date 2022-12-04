@@ -1,11 +1,11 @@
 <?php
 
-include("./functions.php");
+include("resources/functions.php");
 
 $uri = $_SERVER["REQUEST_URI"];
 
 if ($uri === "/") {
-    require "./view.index.php";
+    require "resources/view.index.php";
 } else {
 
     try {

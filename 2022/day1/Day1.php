@@ -1,6 +1,8 @@
 <?php 
 
-class Day1 {
+require_once("resources/Day.php");
+
+class Day1 implements Day {
 
     public function __construct(string $puzzle_input) {
         $this->PUZZLE_INPUT = $puzzle_input;

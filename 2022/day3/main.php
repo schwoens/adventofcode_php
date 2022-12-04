@@ -8,4 +8,4 @@ $puzzle = new Day3($puzzle_input);
 $part1result = $puzzle->part1();
 $part2result = $puzzle->part2();
 
-include("template.php");
+include("resources/template.php");
